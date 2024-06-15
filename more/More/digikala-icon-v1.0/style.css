@@ -1,0 +1,1695 @@
+@font-face {
+  font-family: 'digikala-icon';
+  src:  url('fonts/digikala-icon.eot?rxymph');
+  src:  url('fonts/digikala-icon.eot?rxymph#iefix') format('embedded-opentype'),
+    url('fonts/digikala-icon.ttf?rxymph') format('truetype'),
+    url('fonts/digikala-icon.woff?rxymph') format('woff'),
+    url('fonts/digikala-icon.svg?rxymph#digikala-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="digi-"], [class*=" digi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'digikala-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.digi-3-d:before {
+  content: "\e001";
+}
+.digi-31a78819:before {
+  content: "\e156";
+}
+.digi-31a788191:before {
+  content: "\e002";
+}
+.digi-Brand-Digikala-Logo-Logotype-En-Mono:before {
+  content: "\e003";
+}
+.digi-Brand-Digikala-Logo-Logotype-Fa-Mono:before {
+  content: "\e004";
+}
+.digi-Brand-Digikala-Logo-Sign-En-Mono:before {
+  content: "\e005";
+}
+.digi-Brand-Digikala-Offer-All:before {
+  content: "\e006";
+}
+.digi-Brand-Digikala-Offer-Amazing:before {
+  content: "\e007";
+}
+.digi-Brand-Digikala-Offer-AmazingFMCG:before {
+  content: "\e008";
+}
+.digi-Brand-Digikala-Offer-Promotion:before {
+  content: "\e009";
+}
+.digi-Brand-Digikala-USPs-Monocolor-7daysreturn:before {
+  content: "\e00a";
+}
+.digi-Brand-Digikala-USPs-Monocolor-7x24:before {
+  content: "\e00b";
+}
+.digi-Brand-Digikala-USPs-Monocolor-BestPrice:before {
+  content: "\e00c";
+}
+.digi-Brand-Digikala-USPs-Monocolor-CashonDelivery:before {
+  content: "\e00d";
+}
+.digi-Brand-Digikala-USPs-Monocolor-ExpressDelivery:before {
+  content: "\e00e";
+}
+.digi-Brand-Digikala-USPs-Monocolor-OriginalPruduct:before {
+  content: "\e00f";
+}
+.digi-Brand-Digipay:before {
+  content: "\e010";
+}
+.digi-Brand-Digiplus-Logo-Logotype-English:before {
+  content: "\e011";
+}
+.digi-Brand-Digiplus-Logo-Logotype-Persian:before {
+  content: "\e012";
+}
+.digi-Brand-Digiplus-Sign-Monocolor:before {
+  content: "\e013";
+}
+.digi-Brand-Digiplus-Sign-Single-Monocolor:before {
+  content: "\e014";
+}
+.digi-Brand-Digiplus-Sign:before {
+  content: "\e015";
+}
+.digi-Icon-Action-AddComment:before {
+  content: "\e016";
+}
+.digi-Icon-Action-AddtoCart:before {
+  content: "\e017";
+}
+.digi-Icon-Action-Ads:before {
+  content: "\e018";
+}
+.digi-Icon-Action-AskQuestion:before {
+  content: "\e019";
+}
+.digi-Icon-Action-Bug:before {
+  content: "\e01a";
+}
+.digi-Icon-Action-Cancel:before {
+  content: "\e01b";
+}
+.digi-Icon-Action-Card-Credit:before {
+  content: "\e01c";
+}
+.digi-Icon-Action-Card-Gift:before {
+  content: "\e01d";
+}
+.digi-Icon-Action-Cart-Off:before {
+  content: "\e01e";
+}
+.digi-Icon-Action-Cart-On:before {
+  content: "\e01f";
+}
+.digi-Icon-Action-Category-Fill:before {
+  content: "\e020";
+}
+.digi-Icon-Action-Category-Outline:before {
+  content: "\e021";
+}
+.digi-Icon-Action-Comment:before {
+  content: "\e022";
+}
+.digi-Icon-Action-Compare:before {
+  content: "\e023";
+}
+.digi-Icon-Action-Delete:before {
+  content: "\e024";
+}
+.digi-Icon-Action-DeliveryMethod-Quick:before {
+  content: "\e025";
+}
+.digi-Icon-Action-DeliveryMethod-Simultaneous:before {
+  content: "\e068";
+}
+.digi-Icon-Action-DeliveryMethod-Simultaneous1:before {
+  content: "\e026";
+}
+.digi-Icon-Action-DeliveryMethod-Suggested:before {
+  content: "\e027";
+}
+.digi-Icon-Action-Done:before {
+  content: "\e028";
+}
+.digi-Icon-Action-Doubt:before {
+  content: "\e029";
+}
+.digi-Icon-Action-End-Date:before {
+  content: "\e02a";
+}
+.digi-Icon-Action-Fav-Off:before {
+  content: "\e02b";
+}
+.digi-Icon-Action-Fav-On:before {
+  content: "\e02c";
+}
+.digi-Icon-Action-Favorite-Off:before {
+  content: "\e02d";
+}
+.digi-Icon-Action-Favorite-On:before {
+  content: "\e02e";
+}
+.digi-Icon-Action-Feadback:before {
+  content: "\e02f";
+}
+.digi-Icon-Action-Filter:before {
+  content: "\e030";
+}
+.digi-Icon-Action-Flag:before {
+  content: "\e031";
+}
+.digi-Icon-Action-Gallery-Video:before {
+  content: "\e032";
+}
+.digi-Icon-Action-HistoryLog:before {
+  content: "\e033";
+}
+.digi-Icon-Action-Home-Fill:before {
+  content: "\e034";
+}
+.digi-Icon-Action-Home-Outline:before {
+  content: "\e035";
+}
+.digi-Icon-Action-Image:before {
+  content: "\e036";
+}
+.digi-Icon-Action-Invoice:before {
+  content: "\e037";
+}
+.digi-Icon-Action-List-Fill:before {
+  content: "\e038";
+}
+.digi-Icon-Action-List-Outline:before {
+  content: "\e039";
+}
+.digi-Icon-Action-Mic:before {
+  content: "\e03a";
+}
+.digi-Icon-Action-MovetoCart:before {
+  content: "\e03b";
+}
+.digi-Icon-Action-MultiSelect:before {
+  content: "\e03c";
+}
+.digi-Icon-Action-Order:before {
+  content: "\e03d";
+}
+.digi-Icon-Action-Post:before {
+  content: "\e03e";
+}
+.digi-Icon-Action-PriceChart:before {
+  content: "\e03f";
+}
+.digi-Icon-Action-PriceTag:before {
+  content: "\e040";
+}
+.digi-Icon-Action-Profile-Off:before {
+  content: "\e041";
+}
+.digi-Icon-Action-Profile-On:before {
+  content: "\e042";
+}
+.digi-Icon-Action-Question:before {
+  content: "\e043";
+}
+.digi-Icon-Action-Registeration-Signin:before {
+  content: "\e044";
+}
+.digi-Icon-Action-Registeration-Signout:before {
+  content: "\e045";
+}
+.digi-Icon-Action-Reload:before {
+  content: "\e046";
+}
+.digi-Icon-Action-SaveforLater:before {
+  content: "\e047";
+}
+.digi-Icon-Action-Search-History:before {
+  content: "\e056";
+}
+.digi-Icon-Action-Search-History1:before {
+  content: "\e048";
+}
+.digi-Icon-Action-Search-PlaceSuggest:before {
+  content: "\e049";
+}
+.digi-Icon-Action-Search-Search:before {
+  content: "\e04a";
+}
+.digi-Icon-Action-Search-Trend:before {
+  content: "\e04b";
+}
+.digi-Icon-Action-Serial:before {
+  content: "\e04c";
+}
+.digi-Icon-Action-Setting:before {
+  content: "\e04d";
+}
+.digi-Icon-Action-Share:before {
+  content: "\e04e";
+}
+.digi-Icon-Action-Sort:before {
+  content: "\e04f";
+}
+.digi-Icon-Action-Star-Fill:before {
+  content: "\e050";
+}
+.digi-Icon-Action-Star-Outline:before {
+  content: "\e051";
+}
+.digi-Icon-Action-Start-Date:before {
+  content: "\e052";
+}
+.digi-Icon-Action-Support:before {
+  content: "\e053";
+}
+.digi-Icon-Action-Thumbs-Down:before {
+  content: "\e054";
+}
+.digi-Icon-Action-Thumbs-Up:before {
+  content: "\e170";
+}
+.digi-Icon-Action-Thumbs-Up1:before {
+  content: "\e055";
+}
+.digi-Icon-Action-Visibility-Off:before {
+  content: "\e057";
+}
+.digi-Icon-Action-Visibility-On:before {
+  content: "\e058";
+}
+.digi-Icon-Alert-Change-Decrease:before {
+  content: "\e059";
+}
+.digi-Icon-Alert-Change-Increase:before {
+  content: "\e05a";
+}
+.digi-Icon-Alert-Error:before {
+  content: "\e05b";
+}
+.digi-Icon-Alert-Info-Fill:before {
+  content: "\e05c";
+}
+.digi-Icon-Alert-Info-Outline:before {
+  content: "\e05d";
+}
+.digi-Icon-Alert-Notification-Active-Fill:before {
+  content: "\e05e";
+}
+.digi-Icon-Alert-Notification-Active:before {
+  content: "\e05f";
+}
+.digi-Icon-Alert-Notification-Fill:before {
+  content: "\e060";
+}
+.digi-Icon-Alert-Notification-Off:before {
+  content: "\e061";
+}
+.digi-Icon-Badges-Amazing:before {
+  content: "\e062";
+}
+.digi-Icon-Badges-Available-Fill:before {
+  content: "\e063";
+}
+.digi-Icon-Badges-Available:before {
+  content: "\e064";
+}
+.digi-Icon-Badges-Cashback:before {
+  content: "\e065";
+}
+.digi-Icon-Badges-Clearance:before {
+  content: "\e066";
+}
+.digi-Icon-Badges-Club-CoinOutline:before {
+  content: "\e067";
+}
+.digi-Icon-Badges-DK:before {
+  content: "\e069";
+}
+.digi-Icon-Badges-Delivery-3thParty:before {
+  content: "\e06a";
+}
+.digi-Icon-Badges-Delivery-Base:before {
+  content: "\e06b";
+}
+.digi-Icon-Badges-Delivery-FastDelivery:before {
+  content: "\e06c";
+}
+.digi-Icon-Badges-Delivery-InPerson:before {
+  content: "\e071";
+}
+.digi-Icon-Badges-Delivery-InPerson1:before {
+  content: "\e06d";
+}
+.digi-Icon-Badges-Delivery-Jet-Delivery:before {
+  content: "\e06e";
+}
+.digi-Icon-Badges-Delivery-NonInventory:before {
+  content: "\e06f";
+}
+.digi-Icon-Badges-Delivery-Post:before {
+  content: "\e070";
+}
+.digi-Icon-Badges-Free:before {
+  content: "\e072";
+}
+.digi-Icon-Badges-FreeShipping:before {
+  content: "\e073";
+}
+.digi-Icon-Badges-Gallery-3D:before {
+  content: "\e074";
+}
+.digi-Icon-Badges-Gift:before {
+  content: "\e075";
+}
+.digi-Icon-Badges-Guarantee:before {
+  content: "\e076";
+}
+.digi-Icon-Badges-Hashtag:before {
+  content: "\e077";
+}
+.digi-Icon-Badges-Media:before {
+  content: "\e078";
+}
+.digi-Icon-Badges-Money:before {
+  content: "\e079";
+}
+.digi-Icon-Badges-New:before {
+  content: "\e07a";
+}
+.digi-Icon-Badges-NotAvailable:before {
+  content: "\e07b";
+}
+.digi-Icon-Badges-Pricing-OneMonth:before {
+  content: "\e07c";
+}
+.digi-Icon-Badges-Pricing-SixMonth:before {
+  content: "\e07d";
+}
+.digi-Icon-Badges-Pricing-ThreeMonth:before {
+  content: "\e07e";
+}
+.digi-Icon-Badges-Product-Available:before {
+  content: "\e07f";
+}
+.digi-Icon-Badges-Product-Ideal:before {
+  content: "\e080";
+}
+.digi-Icon-Badges-PromotedAmazing:before {
+  content: "\e081";
+}
+.digi-Icon-Badges-RecommendedProduct:before {
+  content: "\e082";
+}
+.digi-Icon-Badges-Return:before {
+  content: "\e083";
+}
+.digi-Icon-Badges-Seller:before {
+  content: "\e084";
+}
+.digi-Icon-Badges-SimCard:before {
+  content: "\e085";
+}
+.digi-Icon-Badges-Sub-Item:before {
+  content: "\e086";
+}
+.digi-Icon-Badges-Variation-Size:before {
+  content: "\e087";
+}
+.digi-Icon-Badges-Voucher:before {
+  content: "\e088";
+}
+.digi-Icon-Categories-All-Fill:before {
+  content: "\e089";
+}
+.digi-Icon-Categories-All-Outline:before {
+  content: "\e08a";
+}
+.digi-Icon-Categories-Beauty-Fill:before {
+  content: "\e08b";
+}
+.digi-Icon-Categories-Beauty-Outline:before {
+  content: "\e08c";
+}
+.digi-Icon-Categories-Book-Fill:before {
+  content: "\e08d";
+}
+.digi-Icon-Categories-Book-Outline:before {
+  content: "\e08e";
+}
+.digi-Icon-Categories-Electronics-Fill:before {
+  content: "\e08f";
+}
+.digi-Icon-Categories-Electronics-Outline:before {
+  content: "\e090";
+}
+.digi-Icon-Categories-Fashion-Fill:before {
+  content: "\e091";
+}
+.digi-Icon-Categories-Fashion-Outline:before {
+  content: "\e092";
+}
+.digi-Icon-Categories-Fresh-Fill:before {
+  content: "\e093";
+}
+.digi-Icon-Categories-Fresh-Outline:before {
+  content: "\e094";
+}
+.digi-Icon-Categories-Home-Fill:before {
+  content: "\e095";
+}
+.digi-Icon-Categories-Home-Outline:before {
+  content: "\e096";
+}
+.digi-Icon-Categories-Kids-Fill:before {
+  content: "\e097";
+}
+.digi-Icon-Categories-Kids-Outline:before {
+  content: "\e098";
+}
+.digi-Icon-Categories-Services-Fill-:before {
+  content: "\e099";
+}
+.digi-Icon-Categories-Services-Outline-:before {
+  content: "\e09a";
+}
+.digi-Icon-Categories-Sports-Fill:before {
+  content: "\e09b";
+}
+.digi-Icon-Categories-Sports-Outline:before {
+  content: "\e09c";
+}
+.digi-Icon-Categories-Tools-Fill:before {
+  content: "\e09d";
+}
+.digi-Icon-Categories-Tools-Outline:before {
+  content: "\e09e";
+}
+.digi-Icon-Communication-Chat:before {
+  content: "\e09f";
+}
+.digi-Icon-Communication-Mobile:before {
+  content: "\e0a0";
+}
+.digi-Icon-Communication-Phone:before {
+  content: "\e0a1";
+}
+.digi-Icon-Content-Add-Circle-Fill:before {
+  content: "\e0a2";
+}
+.digi-Icon-Content-Add-Circle:before {
+  content: "\e0a3";
+}
+.digi-Icon-Content-Add-Simple:before {
+  content: "\e0a4";
+}
+.digi-Icon-Content-Clear:before {
+  content: "\e0a5";
+}
+.digi-Icon-Content-Copy:before {
+  content: "\e0a6";
+}
+.digi-Icon-Content-Edit:before {
+  content: "\e0a7";
+}
+.digi-Icon-Content-Import:before {
+  content: "\e0a8";
+}
+.digi-Icon-Content-Remove-Circle:before {
+  content: "\e0a9";
+}
+.digi-Icon-Content-Remove:before {
+  content: "\e0aa";
+}
+.digi-Icon-Content-Video-Circle:before {
+  content: "\e0ab";
+}
+.digi-Icon-Digikala-Categories-Beauty:before {
+  content: "\e0ac";
+}
+.digi-Icon-Digikala-Categories-Electronic:before {
+  content: "\e0ad";
+}
+.digi-Icon-Digikala-Categories-Fashion:before {
+  content: "\e0ae";
+}
+.digi-Icon-Digikala-Categories-Fresh:before {
+  content: "\e0af";
+}
+.digi-Icon-Digikala-Categories-Tools:before {
+  content: "\e0b0";
+}
+.digi-Icon-Location-AutoDetect-Off:before {
+  content: "\e0b1";
+}
+.digi-Icon-Location-AutoDetect-On:before {
+  content: "\e0b2";
+}
+.digi-Icon-Location-Map:before {
+  content: "\e0b3";
+}
+.digi-Icon-Location-NewAddress:before {
+  content: "\e0b4";
+}
+.digi-Icon-Location-Pin:before {
+  content: "\e0b5";
+}
+.digi-Icon-Location-Street:before {
+  content: "\e0b6";
+}
+.digi-Icon-Navigation-Arrow-Down:before {
+  content: "\e0b7";
+}
+.digi-Icon-Navigation-Arrow-Left:before {
+  content: "\e0b8";
+}
+.digi-Icon-Navigation-Arrow-Right:before {
+  content: "\e0b9";
+}
+.digi-Icon-Navigation-Chevron-Left:before {
+  content: "\e0ba";
+}
+.digi-Icon-Navigation-Chevron-Right:before {
+  content: "\e0bb";
+}
+.digi-Icon-Navigation-Close:before {
+  content: "\e0bc";
+}
+.digi-Icon-Navigation-Drop_up:before {
+  content: "\e0bd";
+}
+.digi-Icon-Navigation-Dropdown:before {
+  content: "\e139";
+}
+.digi-Icon-Navigation-Dropdown1:before {
+  content: "\e0be";
+}
+.digi-Icon-Navigation-Expand-Less:before {
+  content: "\e0bf";
+}
+.digi-Icon-Navigation-Expand-More:before {
+  content: "\e0c0";
+}
+.digi-Icon-Navigation-HamburgerMenu:before {
+  content: "\e0c1";
+}
+.digi-Icon-Navigation-Handle:before {
+  content: "\e0c2";
+}
+.digi-Icon-Navigation-More-Horiz:before {
+  content: "\e0c3";
+}
+.digi-Icon-Navigation-More-Vert:before {
+  content: "\e0c4";
+}
+.digi-Icon-Navigation-Openinnewwindow:before {
+  content: "\e0c5";
+}
+.digi-Icon-Navigation-Redo:before {
+  content: "\e0c6";
+}
+.digi-Icon-Navigation-Undo:before {
+  content: "\e0c7";
+}
+.digi-Icon-Social-Apple:before {
+  content: "\e0c8";
+}
+.digi-Icon-Social-Facebook:before {
+  content: "\e0c9";
+}
+.digi-Icon-Social-Fidibo:before {
+  content: "\e0ca";
+}
+.digi-Icon-Social-GooglePlus:before {
+  content: "\e0cb";
+}
+.digi-Icon-Social-Instagram:before {
+  content: "\e0cc";
+}
+.digi-Icon-Social-Telegram:before {
+  content: "\e0cd";
+}
+.digi-Icon-Social-Twitter:before {
+  content: "\e0ce";
+}
+.digi-access:before {
+  content: "\e1ca";
+}
+.digi-access1:before {
+  content: "\e0cf";
+}
+.digi-account:before {
+  content: "\e0d0";
+}
+.digi-add-compare:before {
+  content: "\e0d1";
+}
+.digi-add-point:before {
+  content: "\e0d2";
+}
+.digi-add-product:before {
+  content: "\e0d3";
+}
+.digi-add-to-cart:before {
+  content: "\e0d4";
+}
+.digi-add-to-items:before {
+  content: "\e0d5";
+}
+.digi-address-map:before {
+  content: "\e1b8";
+}
+.digi-address-map1:before {
+  content: "\e0d6";
+}
+.digi-ads:before {
+  content: "\e0d7";
+}
+.digi-alarm-active:before {
+  content: "\e194";
+}
+.digi-alarm-active1:before {
+  content: "\e0da";
+}
+.digi-alarm-active2:before {
+  content: "\e0d8";
+}
+.digi-alarm-header:before {
+  content: "\e0d9";
+}
+.digi-all-categories:before {
+  content: "\e0db";
+}
+.digi-aparat:before {
+  content: "\e0dc";
+}
+.digi-approved-signal:before {
+  content: "\e0dd";
+}
+.digi-arrow-down-bold:before {
+  content: "\e0de";
+}
+.digi-arrow-down-double:before {
+  content: "\e0df";
+}
+.digi-arrow-down:before {
+  content: "\e0e0";
+}
+.digi-arrow-left-bold:before {
+  content: "\e0fc";
+}
+.digi-arrow-left-bold1:before {
+  content: "\e0f5";
+}
+.digi-arrow-left-bold2:before {
+  content: "\e0e1";
+}
+.digi-arrow-left:before {
+  content: "\e0e2";
+}
+.digi-arrow-line-right:before {
+  content: "\e0e3";
+}
+.digi-arrow-right-bold:before {
+  content: "\e0e4";
+}
+.digi-arrow-right-line:before {
+  content: "\e0e5";
+}
+.digi-arrow-right:before {
+  content: "\e0e6";
+}
+.digi-arrow-up-double:before {
+  content: "\e0e7";
+}
+.digi-attachment:before {
+  content: "\e0e8";
+}
+.digi-badge:before {
+  content: "\e0e9";
+}
+.digi-bag-money:before {
+  content: "\e0ea";
+}
+.digi-balance:before {
+  content: "\e0eb";
+}
+.digi-base-delivery:before {
+  content: "\e0ec";
+}
+.digi-baseline-card_giftcard:before {
+  content: "\e0ed";
+}
+.digi-baseline-local_shipping:before {
+  content: "\e0ee";
+}
+.digi-baseline-notifications-redesign:before {
+  content: "\e0ef";
+}
+.digi-baseline-notifications:before {
+  content: "\e0f0";
+}
+.digi-baseline-share:before {
+  content: "\e0f1";
+}
+.digi-basket-shape:before {
+  content: "\e0f2";
+}
+.digi-bell:before {
+  content: "\e0f3";
+}
+.digi-best-price:before {
+  content: "\e0f4";
+}
+.digi-book-and-media:before {
+  content: "\e0f6";
+}
+.digi-building:before {
+  content: "\e0f7";
+}
+.digi-bundle:before {
+  content: "\e0f8";
+}
+.digi-cancel-circle:before {
+  content: "\e0f9";
+}
+.digi-cancel-thin:before {
+  content: "\e0fa";
+}
+.digi-cancel:before {
+  content: "\e0fb";
+}
+.digi-cart-header:before {
+  content: "\e0fd";
+}
+.digi-cart:before {
+  content: "\e0fe";
+}
+.digi-cash-on-delivery:before {
+  content: "\e0ff";
+}
+.digi-cashback:before {
+  content: "\e100";
+}
+.digi-chat:before {
+  content: "\e101";
+}
+.digi-check-circle:before {
+  content: "\e102";
+}
+.digi-check-green:before {
+  content: "\e103";
+}
+.digi-check:before {
+  content: "\e104";
+}
+.digi-checked:before {
+  content: "\e105";
+}
+.digi-checkmark:before {
+  content: "\e106";
+}
+.digi-checkout:before {
+  content: "\e107";
+}
+.digi-chevron-left:before {
+  content: "\e108";
+}
+.digi-chevron-right:before {
+  content: "\e109";
+}
+.digi-circle-add:before {
+  content: "\e10a";
+}
+.digi-circle-minus:before {
+  content: "\e10b";
+}
+.digi-circle-plus:before {
+  content: "\e10c";
+}
+.digi-circle-warning:before {
+  content: "\e10d";
+}
+.digi-clearFilter:before {
+  content: "\e12b";
+}
+.digi-clearFilter1:before {
+  content: "\e10e";
+}
+.digi-clock-5:before {
+  content: "\e10f";
+}
+.digi-clock-7:before {
+  content: "\e110";
+}
+.digi-clock:before {
+  content: "\e111";
+}
+.digi-close-bold:before {
+  content: "\e113";
+}
+.digi-close-bold1:before {
+  content: "\e112";
+}
+.digi-close:before {
+  content: "\e114";
+}
+.digi-coming-soon:before {
+  content: "\e115";
+}
+.digi-comment-success:before {
+  content: "\e116";
+}
+.digi-comment:before {
+  content: "\e117";
+}
+.digi-comments:before {
+  content: "\e118";
+}
+.digi-compare:before {
+  content: "\e119";
+}
+.digi-copy:before {
+  content: "\e11a";
+}
+.digi-credit-card:before {
+  content: "\e11b";
+}
+.digi-creditPayment:before {
+  content: "\e11c";
+}
+.digi-cross-bold:before {
+  content: "\e11d";
+}
+.digi-customer-support:before {
+  content: "\e11e";
+}
+.digi-dash:before {
+  content: "\e11f";
+}
+.digi-dc-mega-menu:before {
+  content: "\e126";
+}
+.digi-dc-mega-menu1:before {
+  content: "\e120";
+}
+.digi-dc-voucher:before {
+  content: "\e121";
+}
+.digi-decrease:before {
+  content: "\e122";
+}
+.digi-delete:before {
+  content: "\e123";
+}
+.digi-delivered-post:before {
+  content: "\e124";
+}
+.digi-delivery:before {
+  content: "\e125";
+}
+.digi-digiclub:before {
+  content: "\e127";
+}
+.digi-discount:before {
+  content: "\e128";
+}
+.digi-dk-address:before {
+  content: "\e129";
+}
+.digi-dk-comment:before {
+  content: "\e12a";
+}
+.digi-dk-gift-card:before {
+  content: "\e12c";
+}
+.digi-dk-history:before {
+  content: "\e12d";
+}
+.digi-dk-message:before {
+  content: "\e12e";
+}
+.digi-dk-order:before {
+  content: "\e197";
+}
+.digi-dk-order1:before {
+  content: "\e12f";
+}
+.digi-dk-plus:before {
+  content: "\e130";
+}
+.digi-dk-sign-out:before {
+  content: "\e191";
+}
+.digi-dk-sign-out1:before {
+  content: "\e131";
+}
+.digi-dk-user-info:before {
+  content: "\e1c2";
+}
+.digi-dk-user-info1:before {
+  content: "\e132";
+}
+.digi-dk-wishlist:before {
+  content: "\e133";
+}
+.digi-dk:before {
+  content: "\e134";
+}
+.digi-dots-circle:before {
+  content: "\e135";
+}
+.digi-dots:before {
+  content: "\e136";
+}
+.digi-download-2:before {
+  content: "\e137";
+}
+.digi-download:before {
+  content: "\e138";
+}
+.digi-edit:before {
+  content: "\e13a";
+}
+.digi-electronics:before {
+  content: "\e13b";
+}
+.digi-email:before {
+  content: "\e13c";
+}
+.digi-empty-cart:before {
+  content: "\e13d";
+}
+.digi-empty-list:before {
+  content: "\e13e";
+}
+.digi-exclusive:before {
+  content: "\e13f";
+}
+.digi-express-delivery:before {
+  content: "\e140";
+}
+.digi-express:before {
+  content: "\e141";
+}
+.digi-eye:before {
+  content: "\e142";
+}
+.digi-facebook:before {
+  content: "\e143";
+}
+.digi-faq:before {
+  content: "\e144";
+}
+.digi-fashion:before {
+  content: "\e145";
+}
+.digi-fast-delivery:before {
+  content: "\e146";
+}
+.digi-fast:before {
+  content: "\e147";
+}
+.digi-fastest-pack:before {
+  content: "\e148";
+}
+.digi-fb:before {
+  content: "\e149";
+}
+.digi-fidibo:before {
+  content: "\e14a";
+}
+.digi-fill:before {
+  content: "\e14b";
+}
+.digi-filled-twitter:before {
+  content: "\e14c";
+}
+.digi-filter:before {
+  content: "\e14d";
+}
+.digi-flag:before {
+  content: "\e14e";
+}
+.digi-fmcg-badge-left:before {
+  content: "\e14f";
+}
+.digi-folder-add:before {
+  content: "\e150";
+}
+.digi-folder:before {
+  content: "\e151";
+}
+.digi-food-and-beverage:before {
+  content: "\e152";
+}
+.digi-food-icon:before {
+  content: "\e153";
+}
+.digi-freeshipping-check:before {
+  content: "\e154";
+}
+.digi-freeshipping:before {
+  content: "\e155";
+}
+.digi-g-plus:before {
+  content: "\e157";
+}
+.digi-gift-badge:before {
+  content: "\e158";
+}
+.digi-gift-box:before {
+  content: "\e159";
+}
+.digi-gift-card-group:before {
+  content: "\e15a";
+}
+.digi-gift-card:before {
+  content: "\e15b";
+}
+.digi-gift-icon:before {
+  content: "\e15c";
+}
+.digi-gift-percent:before {
+  content: "\e15d";
+}
+.digi-gift-shape:before {
+  content: "\e15e";
+}
+.digi-gift:before {
+  content: "\e15f";
+}
+.digi-google-plus:before {
+  content: "\e160";
+}
+.digi-grid:before {
+  content: "\e161";
+}
+.digi-guarantee:before {
+  content: "\e162";
+}
+.digi-guaranteed:before {
+  content: "\e163";
+}
+.digi-hamburger:before {
+  content: "\e164";
+}
+.digi-hand-payment:before {
+  content: "\e165";
+}
+.digi-happy:before {
+  content: "\e166";
+}
+.digi-header-search:before {
+  content: "\e167";
+}
+.digi-headphone:before {
+  content: "\e168";
+}
+.digi-heart-active:before {
+  content: "\e16c";
+}
+.digi-heart-active1:before {
+  content: "\e169";
+}
+.digi-heart-empty:before {
+  content: "\e16a";
+}
+.digi-heart-filled:before {
+  content: "\e16b";
+}
+.digi-home-and-kitchen:before {
+  content: "\e16d";
+}
+.digi-home:before {
+  content: "\e16e";
+}
+.digi-hygiene:before {
+  content: "\e16f";
+}
+.digi-icon-digiclub-spinner:before {
+  content: "\e171";
+}
+.digi-inbox:before {
+  content: "\e172";
+}
+.digi-increase:before {
+  content: "\e173";
+}
+.digi-incredible-icon:before {
+  content: "\e174";
+}
+.digi-incredible:before {
+  content: "\e175";
+}
+.digi-info-sign:before {
+  content: "\e176";
+}
+.digi-info:before {
+  content: "\e177";
+}
+.digi-instagram:before {
+  content: "\e178";
+}
+.digi-invoice:before {
+  content: "\e179";
+}
+.digi-last-season:before {
+  content: "\e17a";
+}
+.digi-left-arrow-bold:before {
+  content: "\e17b";
+}
+.digi-left-icon:before {
+  content: "\e17c";
+}
+.digi-light:before {
+  content: "\e17d";
+}
+.digi-like:before {
+  content: "\e17e";
+}
+.digi-link-to:before {
+  content: "\e17f";
+}
+.digi-link:before {
+  content: "\e180";
+}
+.digi-linkedin:before {
+  content: "\e181";
+}
+.digi-list:before {
+  content: "\e182";
+}
+.digi-location-pin:before {
+  content: "\e183";
+}
+.digi-login:before {
+  content: "\e184";
+}
+.digi-logout:before {
+  content: "\e185";
+}
+.digi-menu:before {
+  content: "\e186";
+}
+.digi-message:before {
+  content: "\e187";
+}
+.digi-minus:before {
+  content: "\e188";
+}
+.digi-mobile:before {
+  content: "\e189";
+}
+.digi-morediscount:before {
+  content: "\e18a";
+}
+.digi-mother-and-child:before {
+  content: "\e18b";
+}
+.digi-move-to-cart:before {
+  content: "\e18c";
+}
+.digi-my-comments:before {
+  content: "\e18d";
+}
+.digi-negative:before {
+  content: "\e18e";
+}
+.digi-new-instagram:before {
+  content: "\e18f";
+}
+.digi-new-seller-product:before {
+  content: "\e190";
+}
+.digi-no-idea:before {
+  content: "\e192";
+}
+.digi-normal-pack:before {
+  content: "\e193";
+}
+.digi-notification-empty:before {
+  content: "\e195";
+}
+.digi-order-tracking:before {
+  content: "\e20c";
+}
+.digi-order-tracking1:before {
+  content: "\e196";
+}
+.digi-organization:before {
+  content: "\e198";
+}
+.digi-orginality-badge:before {
+  content: "\e199";
+}
+.digi-out-of-stock:before {
+  content: "\e19a";
+}
+.digi-outline-info:before {
+  content: "\e19b";
+}
+.digi-outline-video-library:before {
+  content: "\e19c";
+}
+.digi-outline-video_library:before {
+  content: "\e19d";
+}
+.digi-outline:before {
+  content: "\e19e";
+}
+.digi-pack-summary:before {
+  content: "\e19f";
+}
+.digi-pack:before {
+  content: "\e1a0";
+}
+.digi-package-7-return:before {
+  content: "\e1a1";
+}
+.digi-package-move:before {
+  content: "\e1a2";
+}
+.digi-padlock-small:before {
+  content: "\e1a3";
+}
+.digi-padlock:before {
+  content: "\e1a4";
+}
+.digi-params:before {
+  content: "\e1a5";
+}
+.digi-password-change:before {
+  content: "\e1a6";
+}
+.digi-password:before {
+  content: "\e1a7";
+}
+.digi-payment-cc-delivery:before {
+  content: "\e1a8";
+}
+.digi-payment-cc:before {
+  content: "\e1a9";
+}
+.digi-payment-o:before {
+  content: "\e1aa";
+}
+.digi-payment-wallet:before {
+  content: "\e1ab";
+}
+.digi-pencil:before {
+  content: "\e1ac";
+}
+.digi-personal-appliance:before {
+  content: "\e1ad";
+}
+.digi-phone-line:before {
+  content: "\e1ae";
+}
+.digi-phone-success:before {
+  content: "\e1af";
+}
+.digi-phone:before {
+  content: "\e1b0";
+}
+.digi-play-video:before {
+  content: "\e1b1";
+}
+.digi-play:before {
+  content: "\e1b2";
+}
+.digi-plus:before {
+  content: "\e1b3";
+}
+.digi-point-add-below:before {
+  content: "\e1b4";
+}
+.digi-point-add:before {
+  content: "\e1b5";
+}
+.digi-point-area-bg:before {
+  content: "\e1b6";
+}
+.digi-point-area:before {
+  content: "\e1b7";
+}
+.digi-positive:before {
+  content: "\e1b9";
+}
+.digi-profile-address:before {
+  content: "\e1ba";
+}
+.digi-profile-comments:before {
+  content: "\e1bb";
+}
+.digi-profile-gift:before {
+  content: "\e1bc";
+}
+.digi-profile-gifts:before {
+  content: "\e1bd";
+}
+.digi-profile-notification:before {
+  content: "\e1be";
+}
+.digi-profile-orders:before {
+  content: "\e1bf";
+}
+.digi-profile-personal:before {
+  content: "\e1c0";
+}
+.digi-profile-wishlist:before {
+  content: "\e1c1";
+}
+.digi-promotion:before {
+  content: "\e1c3";
+}
+.digi-quality-guarantee:before {
+  content: "\e1c4";
+}
+.digi-question-circle:before {
+  content: "\e227";
+}
+.digi-question-circle1:before {
+  content: "\e1c5";
+}
+.digi-question-sm:before {
+  content: "\e1c6";
+}
+.digi-question:before {
+  content: "\e1c7";
+}
+.digi-recover:before {
+  content: "\e1c8";
+}
+.digi-remaining-time:before {
+  content: "\e1c9";
+}
+.digi-return-fmcg:before {
+  content: "\e1cb";
+}
+.digi-return-shape:before {
+  content: "\e1cc";
+}
+.digi-return:before {
+  content: "\e1ce";
+}
+.digi-return1:before {
+  content: "\e1cd";
+}
+.digi-round-3-d-rotation:before {
+  content: "\e1cf";
+}
+.digi-round-3d_rotation:before {
+  content: "\e1d0";
+}
+.digi-round-compare-redesign:before {
+  content: "\e1d1";
+}
+.digi-round-compare:before {
+  content: "\e1d2";
+}
+.digi-round-favorite:before {
+  content: "\e1d3";
+}
+.digi-round-insert-chart:before {
+  content: "\e1d4";
+}
+.digi-round-insert_chart:before {
+  content: "\e1d5";
+}
+.digi-round-security:before {
+  content: "\e1d6";
+}
+.digi-round-share:before {
+  content: "\e1d7";
+}
+.digi-round-store_mall_directory:before {
+  content: "\e1d8";
+}
+.digi-round-timer:before {
+  content: "\e1d9";
+}
+.digi-round-videocam:before {
+  content: "\e1da";
+}
+.digi-rounded-copy:before {
+  content: "\e1db";
+}
+.digi-ruler:before {
+  content: "\e1dc";
+}
+.digi-sad:before {
+  content: "\e1dd";
+}
+.digi-save-for-later:before {
+  content: "\e1de";
+}
+.digi-script:before {
+  content: "\e1df";
+}
+.digi-search:before {
+  content: "\e1e0";
+}
+.digi-seller-new:before {
+  content: "\e1e1";
+}
+.digi-seller-sm:before {
+  content: "\e1e2";
+}
+.digi-seller:before {
+  content: "\e1e3";
+}
+.digi-seven-day-guarantee:before {
+  content: "\e1e4";
+}
+.digi-share-empty:before {
+  content: "\e1e5";
+}
+.digi-share-fill:before {
+  content: "\e1e6";
+}
+.digi-share:before {
+  content: "\e1e7";
+}
+.digi-shield:before {
+  content: "\e1e8";
+}
+.digi-shipment-cheapest:before {
+  content: "\e1e9";
+}
+.digi-shipment-fastest:before {
+  content: "\e1ea";
+}
+.digi-shipping:before {
+  content: "\e1eb";
+}
+.digi-shopper:before {
+  content: "\e1ec";
+}
+.digi-shopping-basket:before {
+  content: "\e1ed";
+}
+.digi-show-more-menu:before {
+  content: "\e1ee";
+}
+.digi-sign-in:before {
+  content: "\e1ef";
+}
+.digi-sign-out:before {
+  content: "\e1f0";
+}
+.digi-sign-up:before {
+  content: "\e217";
+}
+.digi-sign-up1:before {
+  content: "\e1f1";
+}
+.digi-simultaneous:before {
+  content: "\e1f2";
+}
+.digi-social:before {
+  content: "\e1f3";
+}
+.digi-sort:before {
+  content: "\e1f4";
+}
+.digi-specification:before {
+  content: "\e1f5";
+}
+.digi-sport-and-entertainment:before {
+  content: "\e1f6";
+}
+.digi-star:before {
+  content: "\e1f7";
+}
+.digi-staro-fill:before {
+  content: "\e1f8";
+}
+.digi-staro:before {
+  content: "\e1f9";
+}
+.digi-stats:before {
+  content: "\e1fa";
+}
+.digi-stopwatch:before {
+  content: "\e1fb";
+}
+.digi-store:before {
+  content: "\e1fc";
+}
+.digi-subscribe:before {
+  content: "\e1fd";
+}
+.digi-suggested:before {
+  content: "\e1fe";
+}
+.digi-support-247:before {
+  content: "\e1ff";
+}
+.digi-tag:before {
+  content: "\e200";
+}
+.digi-telegram:before {
+  content: "\e201";
+}
+.digi-three-bullets:before {
+  content: "\e202";
+}
+.digi-three-dimensional:before {
+  content: "\e204";
+}
+.digi-three-dimensional1:before {
+  content: "\e203";
+}
+.digi-time:before {
+  content: "\e205";
+}
+.digi-timer-filled:before {
+  content: "\e206";
+}
+.digi-timer-incredible:before {
+  content: "\e208";
+}
+.digi-timer-incredible1:before {
+  content: "\e207";
+}
+.digi-toman:before {
+  content: "\e209";
+}
+.digi-tools:before {
+  content: "\e20a";
+}
+.digi-top-up:before {
+  content: "\e20b";
+}
+.digi-tracking:before {
+  content: "\e20d";
+}
+.digi-trash-image:before {
+  content: "\e20e";
+}
+.digi-trash:before {
+  content: "\e20f";
+}
+.digi-trend:before {
+  content: "\e210";
+}
+.digi-truck-leaf:before {
+  content: "\e211";
+}
+.digi-truck-left:before {
+  content: "\e212";
+}
+.digi-twitter:before {
+  content: "\e213";
+}
+.digi-unfold:before {
+  content: "\e214";
+}
+.digi-union:before {
+  content: "\e215";
+}
+.digi-upload:before {
+  content: "\e216";
+}
+.digi-user-add:before {
+  content: "\e218";
+}
+.digi-user-confirm:before {
+  content: "\e219";
+}
+.digi-user-shape:before {
+  content: "\e21a";
+}
+.digi-user-small:before {
+  content: "\e21b";
+}
+.digi-user-success:before {
+  content: "\e21c";
+}
+.digi-user:before {
+  content: "\e21d";
+}
+.digi-usp:before {
+  content: "\e21e";
+}
+.digi-verified-user:before {
+  content: "\e21f";
+}
+.digi-verified:before {
+  content: "\e220";
+}
+.digi-very-happy:before {
+  content: "\e221";
+}
+.digi-very-sad:before {
+  content: "\e222";
+}
+.digi-video-new:before {
+  content: "\e223";
+}
+.digi-wallet:before {
+  content: "\e224";
+}
+.digi-warning:before {
+  content: "\e225";
+}
+.digi-whats-app:before {
+  content: "\e226";
+}
+.digi-wishes-active:before {
+  content: "\e228";
+}
+.digi-wishes:before {
+  content: "\e229";
+}
+.digi-wishlist:before {
+  content: "\e22a";
+}
+.digi-write:before {
+  content: "\e22b";
+}
+.digi-your-location:before {
+  content: "\e22c";
+}

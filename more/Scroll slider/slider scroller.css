@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sliderScroller {
+    width: 1200px;
+    height: 400px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 10px #a9a9a9,-1px -1px 10px #a9a9a9;
+    border-radius: 5px;
+}
+
+.sliderScroller_header{
+    width: 100%;
+    height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.sliderScroller_header-right{
+    width: 220px;
+    height: inherit;
+    float: right;
+    border-bottom: 1px solid #f00;
+}
+
+.sliderScroller_header-right--title{
+    color: darkslategray;
+    line-height: 60px;
+    text-align: right;
+    font-size: 24px;
+    font-family: B Nazanin;
+}

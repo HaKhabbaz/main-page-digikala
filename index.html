@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>khabbaz</title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .color {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- header -->
+<header class="c-header">
+    <div>
+        <section class="c-header-side">
+            <div class="c-header-side_right">
+                <div class="c-header-side_right--logo">
+                    <img src="images/logos/Logo.svg" alt="logo">
+                </div>
+                <div class="c-header-side_right--search">
+                    <div class="c-header-search">
+                        <input type="text" class="c-header-search_input j-search" name="search" placeholder="جستجو ..."
+                               autocomplete="off">
+                        <span class="c-header-search_reset j-search-reset hidden"></span>
+                    </div>
+                    <div class="c-header-search_result j-search-result">
+                        <div class="c-header-search_result-body">
+                            <a href="#" class="c-header-search_result-item">
+                                <div class="c-header-search_result-item--image">
+                                    <img src="images/products/old/php 1 baner.png" alt="php curse baner">
+                                </div>
+                                <div class="c-header-search_result-item--information">
+                                    <h3 href="#" class="c-header-search_result-item--info_title">آموزش زبان برنامه نویسی
+                                        php</h3>
+                                    <div class="c-header-search_result-item--info_details">
+                                        <h4 class="c-header-search_result-item--info_author">خباز</h4>
+                                        <h4 class="c-header-search_result-item--info_price">
+                                            10000 <span class="c-header-search_result-item--info_price-toman"></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="c-header-search_result-item">
+                                <div class="c-header-search_result-item--image">
+                                    <img src="images/products/old/laravel 3 baner.png" alt="laravel curse">
+                                </div>
+                                <div class="c-header-search_result-item--information">
+                                    <h3 href="#" class="c-header-search_result-item--info_title">آموزش Laravel فریم ورک
+                                        پیشرفته php </h3>
+                                    <div class="c-header-search_result-item--info_details">
+                                        <h4 class="c-header-search_result-item--info_author">خباز</h4>
+                                        <h4 class="c-header-search_result-item--info_price">
+                                            2000000 <span class="c-header-search_result-item--info_price-toman"></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="c-header-search_result-item">
+                                <div class="c-header-search_result-item--image">
+                                    <img src="images/products/old/php mvc 1 baner.jpg" alt="php MVC curse">
+                                </div>
+                                <div class="c-header-search_result-item--information">
+                                    <h3 href="#" class="c-header-search_result-item--info_title">آموزش معماری MVC در
+                                        زبان
+                                        PHP</h3>
+                                    <div class="c-header-search_result-item--info_details">
+                                        <h4 class="c-header-search_result-item--info_author">حسن آقا صادق خباز</h4>
+                                        <h4 class="c-header-search_result-item--info_price">
+                                            <span class="c-header-search_result-item--info_price-free"></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="c-header-search_result-item">
+                                <div class="c-header-search_result-item--image">
+                                    <img src="images/products/old/mysql 1 baner.jpg" alt="MySQL Professinal curse">
+                                </div>
+                                <div class="c-header-search_result-item--information">
+                                    <h3 href="#" class="c-header-search_result-item--info_title">آموزش پایگاه داده ی
+                                        MySQL</h3>
+                                    <div class="c-header-search_result-item--info_details">
+                                        <h4 class="c-header-search_result-item--info_author">علی رحمانیان</h4>
+                                        <h4 class="c-header-search_result-item--info_price">
+                                            2000000<span class="c-header-search_result-item--info_price-toman"></span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="c-header-search_result-show-all">
+                            <a href="#" class="c-header-search_result-show-all-text">
+                                <span>نمایش همه محصولات </span> php
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="c-header-side_left">
+                <div class="c-header-side_left--action">
+                    <a href="#" class="c-header-action_login-register">
+                        ورود به حساب کاربری
+                    </a>
+                    <a href="#" class="c-header-action_profile j-profile" style="display: none">
+                        <div class="c-header-action_profile-image">
+                            <img src="images/users/defaultPerson.png" alt="user" id="j-profile-image">
+                        </div>
+                        <span>hasan agha</span>
+                    </a>
+                </div>
+                <div class="c-header-side_left--miniCart">
+                    <div class="c-miniCart">
+                        <div class="c-miniCart-counter hidden">
+                            0
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="c-nav">
+            <ul class="c-nav-right">
+                <li class="c-nav-right_item-hover j-nav-hover">
+                    <div></div>
+                </li>
+                <li class="c-nav-right_item j-nav-item c-mega-menu j-mega-menu" id="allCurse">
+                    <a href="#">دوره های آموزشی</a>
+                    <div class="c-mega-menu_results j-mega-menu_results">
+                        <div class="c-mega-menu_categories">
+                            <ul>
+                                <li class="c-mega-menu_category j-mega-menu_category is-active" id="cat-programming"><a
+                                        href="#">برنامه نویسی</a></li>
+                                <li class="c-mega-menu_category j-mega-menu_category" id="cat-database"><a href="#">DataBase
+                                    و پایگاه داده</a></li>
+                                <li class="c-mega-menu_category j-mega-menu_category" id="cat-devops"><a href="#">
+                                    مهندسی نرم افزار و DevOps</a></li>
+                                <li class="c-mega-menu_category j-mega-menu_category" id="cat-it"><a href="#">IT و شبکه
+                                    های
+                                    کامپیوتری</a></li>
+                                <li class="c-mega-menu_category j-mega-menu_category" id="cat-editing"><a href="#">تدوین
+                                    و
+                                    فیلم سازی</a></li>
+                                <li class="c-mega-menu_category j-mega-menu_category" id="cat-illustration"><a href="#">طراحی
+                                    و تصویر سازی</a></li>
+                                <li class="c-mega-menu_category j-mega-menu_category" id="cat-os"><a href="#">سیستم عامل
+                                    و
+                                    نرم افزار های کاربردی</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option is-active"
+                             id="cat-programming-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>برنامه نویسی</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <li class="c-mega-menu_option-title"><a href="#">برنامه نویسی web</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Html & CSS</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">PHP8</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">JavaScript</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Laravel</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">React JS</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Vue JS</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Node JS</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Next JS</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Less</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Sass</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Symphony</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Python</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Django</a></li>
+
+                                <li class="c-mega-menu_option-title"><a href="#">برنامه نویسی Android</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Java</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Android</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Spring</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">React Native</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Kotlin</a></li>
+
+                                <li class="c-mega-menu_option-title"><a href="#">برنامه نویسی Desktop</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">C</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">C#</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Electron JS</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">C++</a></li>
+
+                                <li class="c-mega-menu_option-title"><a href="#">برنامه نویسی MAC</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Swift</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Ruby</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">R</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option" id="cat-database-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>پایگاه داده</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <li class="c-mega-menu_option-title"><a href="#">SQL Database</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Oracle PL/SQL</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">MySQL</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">SQLServer</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">PostgreSQL</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">SQLLite</a></li>
+
+                                <li class="c-mega-menu_option-title"><a href="#">NoSQL Database</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">MongoDB</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Redis</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option" id="cat-devops-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>مهندسی نرم افزار و DevOps</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <li class="c-mega-menu_option-title"><a href="#">DevOps</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Docker</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Kubernetes</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Git & Jenkins</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Puppet</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Ansible</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Web Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option" id="cat-it-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>شبکه</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <!--                            <li class="c-mega-menu_option-title"><a href="#"></a></li>-->
+                                <li class="c-mega-menu_option-item"><a href="#">Network +</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Cisco</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Windows Server</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Network Security</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">FTP Protocol</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">SSH Protocol</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">SSL</a></li>
+                                <li class="c-mega-menu_option-title"><a href="#">DevNet</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">OpenStack From Scrach</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Data Science</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option" id="cat-editing-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>فیلم سازی</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <!--                            <li class="c-mega-menu_option-title"><a href="#"></a></li>-->
+                                <li class="c-mega-menu_option-item"><a href="#">Premiere</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">DaVinci Resolve</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">3D max</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">After Effects</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Movie Maker</a></li>
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option" id="cat-illustration-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>تصویر سازی</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <!--                            <li class="c-mega-menu_option-title"><a href="#"></a></li>-->
+                                <li class="c-mega-menu_option-item"><a href="#">Photoshop</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Corel</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Illustrator</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="c-mega-menu_category-options j-mega-menu_list-option" id="cat-os-list">
+                            <div class="c-mega-menu_option-showAll">
+                                <a href="#">
+                                    نماش همه آموزش های
+                                    <span>سیستم عامل و برنامه های کاربردی</span>
+                                </a>
+                            </div>
+                            <ul class="c-mega-menu_option">
+                                <li class="c-mega-menu_option-title"><a href="#">گنو و لینوکس</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Linux Essentials</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Lpic 1</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Lpic 2</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Lpic 303 (security)</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Lpic 304 (virtualization)</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Vim</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Zabbix Monitoring</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Embedded Linux</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Shel Scripting</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Bash Script</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Apache</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">nginx</a></li>
+                                <li class="c-mega-menu_option-title"><a href="#">ویندوز</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Windows 10</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">Office</a></li>
+                                <li class="c-mega-menu_option-item"><a href="#">mac OS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="c-nav-right_item j-nav-item" id="article"><a href="#">مقالات</a></li>
+                <li class="c-nav-right_item j-nav-item" id="workWithUs"><a href="#">همکاری باما</a></li>
+                <li class="c-nav-right_item j-nav-item" id="frequentlyAskedQuestions"><a href="#">سوالات متداول</a></li>
+                <li class="c-nav-right_item j-nav-item" id="contactUs"><a href="#">تماس باما</a></li>
+                <li class="c-nav-right_item j-nav-item" id="aboutUs"><a href="#">درباره ما</a></li>
+            </ul>
+            <div class="c-nav-left">
+                <a href="#">آموزش های رایگان</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="container c-container">
+        <div class="c-wrapper">
+            <div class="c-slider">
+                <div class="c-slider_container">
+                    <div class="c-slider_content j-slider">
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/DevNet.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Laravel.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Web%20Hosting.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Java.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Kubernetes.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/OpenStack.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Virtualization%20.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Python.jpg" alt="DevNet">
+                        </a>
+                        <a href="#" class="c-slider_content-box j-slider_box">
+                            <img src="images/slider/Embedded%20linux.jpg" alt="DevNet">
+                        </a>
+                    </div>
+                    <div class="c-slider_prev-control">
+                        <span class="c-slider_prev-icon j-slider_prev-btn"></span>
+                    </div>
+                    <div class="c-slider_next-control">
+                        <span class="c-slider_next-icon j-slider_next-btn"></span>
+                    </div>
+                    <div class="c-slider_pagination j-slider_pagination">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-thirds">
+            <div class="c-thirds_box">
+                <a href="#" class="c-thirds_image">
+                    <img src="images/slider/Java.jpg" alt="Laravel">
+                </a>
+            </div>
+            <div class="c-thirds_box">
+                <a href="#" class="c-thirds_image">
+                    <img src="images/slider/Web%20Hosting.jpg" alt="MySQL">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="c-swiper">
+        <div class="container">
+            <div class="c-productSlider">
+                <div class="c-productSlider_header">
+                    <span class="c-productSlider_header-title">
+                        آموزش های برنامه نویسی
+                    </span>
+                </div>
+                <div class="c-productSlider_body">
+                    <div class="c-productSlider_box">
+                        <div class="c-productSlider_body-container j-productSlider">
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic1.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 1</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic2.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 2</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic3.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 3</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/LinuxEssentials.png" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Linux Essentials</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic1.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 1</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic2.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 2</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic3.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 3</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/LinuxEssentials.png" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Linux Essentials</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic1.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 1</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic2.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 2</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/lpic3.gif" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Lpic 3</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-productSlider_item j-productSlider_slide">
+                                <div class="c-productSlider_item-image">
+                                    <img src="images/products/logo/LinuxEssentials.png" alt="linux">
+                                </div>
+                                <div class="c-productSlider_item-content">
+                                    <div class="c-productSlider_item-title">
+                                        <h1 class="c-productSlider_item-title--text">Linux Essentials</h1>
+                                    </div>
+                                    <div class="c-productSlider_item-description">
+                                        <h3 class="c-productSlider_item-description--teacher">حسن آقا صادق خباز</h3>
+                                        <span class="c-productSlider_item-description--price">200000</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <!--   https://www.dideo.ir/v/yt/uYxcU3DVrgc/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D9%88%DB%8C%D8%AF%D8%A6%D9%88-%D8%A7%D8%B2-%D8%AF%DB%8C%D8%AF%D8%A6%D9%88-watch-video-from-dideo     -->
+                        </div>
+                        <div class="c-productSlider_prev-btn j-productSlider_prev-btn is-disable"></div>
+                        <div class="c-productSlider_next-btn j-productSlider_next-btn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="c-footer">
+    <div class="c-footer-side">
+        <div class="c-footer_introduction">
+            <div class="c-footer_intro-logo">
+                <img src="images/svg/logo.svg" alt="logo footer">
+            </div>
+        </div>
+        <div class="c-footer_feature-products">
+            <a href="#" class="c-footer_feature-item c-footer_feature-item--package">
+                <div class="c-footer_feature-image"></div>
+                <div class="c-footer_feature-title">
+                    پکیج های همیشه بروز
+                </div>
+            </a>
+            <a href="#" class="c-footer_feature-item c-footer_feature-item--payInLocation">
+                <div class="c-footer_feature-image"></div>
+                <div class="c-footer_feature-title">
+                    پرداخت در محل
+                </div>
+            </a>
+            <a href="#" class="c-footer_feature-item c-footer_feature-item--document">
+                <div class="c-footer_feature-image"></div>
+                <div class="c-footer_feature-title">
+                    مدارک معتبر در جهان
+                </div>
+            </a>
+            <a href="#" class="c-footer_feature-item c-footer_feature-item--7day">
+                <div class="c-footer_feature-image"></div>
+                <div class="c-footer_feature-title">
+                    آموزش های 7 روزه
+                </div>
+            </a>
+            <a href="#" class="c-footer_feature-item c-footer_feature-item--support">
+                <div class="c-footer_feature-image"></div>
+                <div class="c-footer_feature-title">
+                    پشتیبانی 24 ساعته مدرس
+                </div>
+            </a>
+        </div>
+        <div class="c-footer_container">
+            <div class="c-footer_container-links">
+                <ul>
+                    <li class="c-footer_container-linkTitle"><a href="#">دیجی کام</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">اتاق خبر دیجی کام</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">فرصت های شغلی</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">تماس با دیجی کام</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">درباره ی دیجی کام</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">آموزش در دیجی کام</a></li>
+                </ul>
+            </div>
+            <div class="c-footer_container-links">
+                <ul>
+                    <li class="c-footer_container-linkTitle"><a href="#">خدمات مشتریان</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">پرسش های متداول</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">حریم خصوصی</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">شرایط استفاده</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">آزمون های بین المللی</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">مدرک های بین المللی</a></li>
+                </ul>
+            </div>
+            <div class="c-footer_container-links">
+                <ul>
+                    <li class="c-footer_container-linkTitle"><a href="#">راهنمای خرید از دیجی کام</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">نحوه ثبت نام</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">نحوه ثبت نام در آزمون</a></li>
+                    <li class="c-footer_container-linkItem"><a href="#">نحوه اخذ مدرک</a></li>
+                </ul>
+            </div>
+            <div class="c-footer_container-socialMedia">
+                <div class="c-footer_socialMedia">
+                    <div class="c-footer_socialMedia-text">
+                        باما همراه باشید
+                    </div>
+                    <div class="c-footer_socialMedia-media">
+                        <a href="#" class="c-footer_socialMedia-mediaItem c-footer_socialMedia-mediaItem--facebook"></a>
+                        <a href="#" class="c-footer_socialMedia-mediaItem c-footer_socialMedia-mediaItem--twitter"></a>
+                        <a href="#" class="c-footer_socialMedia-mediaItem c-footer_socialMedia-mediaItem--linkedin"></a>
+                        <a href="#" class="c-footer_socialMedia-mediaItem c-footer_socialMedia-mediaItem--youtube"></a>
+                        <a href="#" class="c-footer_socialMedia-mediaItem c-footer_socialMedia-mediaItem--aparat"></a>
+                        <a href="#"
+                           class="c-footer_socialMedia-mediaItem c-footer_socialMedia-mediaItem--instagram"></a>
+                    </div>
+                </div>
+                <form action="#" method="post" class="c-footer_emailMarketing" autocomplete="off">
+                    <div class="c-footer_emailMarketing-title">از جدید ترین تخفیف ها با خبر شوید</div>
+                    <div class="c-footer_emailMarketing-box">
+                        <input type="text" name="email" class="c-footer_emailMarketing-input j-emailMarketing-input"
+                               placeholder="آدرس ایمیل خود را وارد کنید">
+                        <input type="submit" value="ثبت" class="c-footer_emailMarketing-btn j-emailMarketing-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="c-footer_permissionsAndHistory">
+            <div class="c-footer_history">
+                <article class="c-footer_history-article j-footer-history-article">
+                    <h1>
+                        دیجی کام ، مرکز آموزش آنلاین برنامه نویسی و تکنولژی های نوین
+                    </h1>
+                    <p>
+                        <span class="c-footer_history-main">
+                            دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.
+                        </span>
+                        <span class="c-footer_history-more">
+حتی زمانی که بین خرید کالاها برای شخصی مردد هستید می‌توانید با خرید کارت هدیه دیجی کالا ، انتخاب را به سایرین بسپارید. این فروشگاه مثل یک ویترین پر زرق و برق است که با انواع و اقسام محصولاتی نظیر گوشی موبایل سامسونگ ، ساعت هوشمند اپل ، تلویزیون سامسونگ ، لپ تاپ و الترابوک ایسوس ، گوشی موبایل هواوی و همچنین محصولاتی که هر فرد در زندگی شخصی، تحصیلی و کاری خود به آنها احتیاج پیدا می‌کند، چیده شده است. اینجا مرجع متنوع‌ترین کالاهای مصرفی از گوشی موبایل موتورولا گرفته تا تبلت لنوو ، اتو پاناسونیک ، جارو شارژی بلک اند دکر ، کولر آبی آبسال ، اسپیکر (بلندگو) جی بی ال و حتی خرید لوازم جهیزیه می‌باشد. دیجی‌کالا همچنین یک بازار آنلاین برای خرید جدیدترین و ضروری‌ترین لوازم خانگی همانند سرخ کن فیلیپس ، یخچال و فریزر امرسان ، جاروبرقی پارس خزر ، آبمیوه گیری بوش ، سینمای خانگی و ساندبار سونی و انواع پخش کننده خانگی می‌باشد تا هر فرد بتواند مطابق با سلیقه شخصی خود، خانه رویاهایش را بسازد. حتی می‌توانید از مشهورترین برندهای داخلی و خارجی انواع مدل مانتو جدید ، لباس خواب زنانه ، پیراهن مردانه ، پیراهن و لباس مجلسی زنانه ، لباس بچه گانه ، شومیز زنانه و دخترانه و انواع لباس زیر مردانه را به صورت آنلاین با کمک راهنمای سایز خریداری کنید. این فروشگاه اینترنتی حتی برای سرگرمی کودکان هم خرید محصولاتی مانند عروسک ، مدل‌های اسباب بازی دخترانه و پسرانه و انواع لگو را فراهم کرده است. همچنین با سر زدن به محصولات آرایشی و بهداشتی زنانه و مردانه مانند عطر و ادکلن دیور ، لالیک ، جگوار ، گرلن اصل ، انواع دستگاه اصلاح موی صورت فیلیپس ، موزر ، پاناسونیک و حتی بهترین برندهای رنگ مو و ابرو می‌توانید تجربه‌ای جدید از خرید آنلاین کسب کنید. شما می توانید کلیه نیازهای خود را تنها با چند کلیک سفارش داده و در کمترین زمان ممکن درب منزل تحویل بگیرید.
+                        </span>
+                    </p>
+                    <span class="c-footer_history-showMore j-footer-history-btn">مشاهده بیشتر</span>
+                </article>
+            </div>
+            <div class="c-footer_permissions">
+                <div class="c-footer_permission-box">
+                    <a href="#">
+                        <img src="images/permissions/eNamad.png" class="c-footer_permission-image"
+                             alt="نماد اعتماد الکترونیکی">
+                    </a>
+                </div>
+                <div class="c-footer_permission-box">
+                    <a href="#">
+                        <img src="images/permissions/etehadie%20keshvar.png" class="c-footer_permission-image"
+                             alt="عضو اتحادیه کشوری">
+                    </a>
+                </div>
+                <div class="c-footer_permission-box">
+                    <a href="#">
+                        <img src="images/permissions/resane%20haie%20digital.png" class="c-footer_permission-image"
+                             alt="رسانه های دیجیتال">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="c-footer_copyright">
+            استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع
+            بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد.
+        </div>
+    </div>
+</footer>
+
+
+<section class="c-overlay j-overlay"></section>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min2.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
